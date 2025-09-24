@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peaberry Coffee Roasters - Menu</title>
+    <link href="{{ url_for('static', filename='menu.css') }}" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <header>
+          <h1>Peaberry Coffee Roasters</h1>
+          <p class="tagline">From Farm to Cup</p>
+          <p class="description">At Peaberry Coffee Roasters, we partner with Zambian farmers, offering feedback and support so every bean meets our high standards.</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><a href="#pastries">Pastries</a></li>
+                <li><a href="#meals">Meals</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <hr>
+        
+        <section id="drinks">
+          <h2>Drinks</h2>
+          <p class="section-intro">Experience our signature craft drinks that'll give your taste buds an enriching experience.</p>
+          
+          <div class="drink-category">
+            <h3>Hot Drinks</h3>
+            <article class="item hot-drink">
+              <h4 class="drink-name">Salted Caramel Latte - K70</h4>
+              <img src="https://i.imgur.com/kcXoYNd.jpg" alt="Salted Caramel Latte"/>
+              <p class="description">Rich espresso blended with steamed milk and our signature salted caramel syrup. Topped with delicate foam art and a hint of sea salt for the perfect sweet and savory balance.</p>
+            </article>
+            <article class="item hot-drink">
+              <h4 class="drink-name">Vanilla Latte - K60</h4>
+              <img src="https://i.imgur.com/Hkptpl4.jpg" alt="Vanilla Latte"/>
+              <p class="description">Smooth espresso combined with creamy steamed milk and premium vanilla syrup. A classic comfort drink that's perfectly balanced and aromatic.</p>
+            </article>
+            <article class="item hot-drink">
+              <h4 class="drink-name">Soya Cappuccino - K80</h4>
+              <img src="https://i.imgur.com/h3k11e5.jpg" alt="Soya Cappuccino"/>
+              <p class="description">Traditional Italian cappuccino made with rich espresso and perfectly frothed soy milk. A dairy-free option that doesn't compromise on taste or texture.</p>
+            </article>
+            <article class="item hot-drink">
+              <h4 class="drink-name">Almond Cappuccino - K65</h4>
+              <img src="https://i.imgur.com/LZb5t3A.jpg" alt="Almond Cappuccino"/>
+              <p class="description">Expertly crafted cappuccino featuring bold espresso and creamy almond milk foam. Nutty, smooth, and naturally sweet with a velvety finish.</p>
+            </article>
+          </div>
+          
+          <div class="drink-category">
+            <h3>Cold Drinks</h3>
+            <article class="item cold-drink">
+              <h4 class="drink-name">Iced Tea - K60</h4>
+              <img src="https://i.imgur.com/dkmqrxM.jpg" alt="Iced Tea"/>
+              <p class="description">Refreshing blend of premium black tea, chilled to perfection and served over ice. Light, crisp, and the perfect thirst quencher for warm Lusaka days.</p>
+            </article>
+            <article class="item cold-drink">
+              <h4 class="drink-name">Iced Coffee - K60</h4>
+              <img src="https://i.imgur.com/5PeBVcQ.jpg" alt="Iced Coffee"/>
+              <p class="description">Our signature cold brew coffee served over ice with a splash of fresh milk. Bold, smooth, and energizing - perfect for beating the heat.</p>
+            </article>
+            <article class="item cold-drink">
+              <h4 class="drink-name">Iced Mocha - K70</h4>
+              <img src="https://i.imgur.com/ewwxbzB.jpg" alt="Iced Mocha"/>
+              <p class="description">Decadent combination of rich espresso, chocolate syrup, and cold milk poured over ice. Topped with whipped cream for an indulgent treat.</p>
+            </article>
+            <article class="item cold-drink">
+              <h4 class="drink-name">Fanta - K20</h4>
+              <img src="https://i.imgur.com/3g5JOpq.jpg" alt="Fanta Orange"/>
+              <p class="description">Classic orange Fanta served ice-cold. A bubbly, citrusy refreshment that pairs perfectly with any meal.</p>
+            </article>
+          </div>
+        </section>
+        <hr>
+        
+        <section id="pastries">
+          <h2>Pastries</h2>
+          <article class="item">
+            <h3 class="pastry-name">Donut Mountain - K180</h3>
+            <img src="https://i.imgur.com/ke5YZEt.jpg" alt="Donut Mountain"/>
+            <p class="description">A towering stack of our freshly made donuts, glazed to perfection and sprinkled with love. Perfect for sharing or indulging solo.</p>
+          </article>
+          <article class="item">
+            <h3 class="pastry-name">Cherry Pie - K150</h3>
+            <img src="https://i.imgur.com/Yukx0UB.jpg" alt="Cherry Pie"/>
+            <p class="description">Traditional homemade cherry pie with a flaky, buttery crust filled with sweet and tart cherries. Served warm with a dollop of fresh cream.</p>
+          </article>
+          <article class="item">
+            <h3 class="pastry-name">Cheesecake - K170</h3>
+            <img src="https://i.imgur.com/l8BdJwa.jpg"alt="Cheesecake"/>
+            <p class="description">Creamy, rich New York-style cheesecake with a graham cracker crust. Smooth texture with just the right amount of tanginess.</p>
+          </article>
+          <article class="item">
+            <h3 class="pastry-name">Cinnamon Roll - K120</h3>
+            <img src="https://i.imgur.com/wWDlb0d.jpg" alt="Cinnamon Roll"/>
+            <p class="description">Soft, fluffy cinnamon roll swirled with warm spices and topped with cream cheese icing. Baked fresh daily and served warm.</p>
+          </article>
+        </section>
+        <hr>
+        
+        <section id="meals">
+          <h2>Meals</h2>
+          <article class="item">
+            <h3 class="meal-name">Barramundi with lemon myrtle butter - K200</h3>
+            <img src="https://i.imgur.com/00bsD4R.jpg" alt="Barramundi with lemon myrtle butter"/>
+            <p class="description">Succulent fillets of wild-caught Australian barramundi are pan-seared until the skin is crisp and golden. A warm drizzle of lemon-myrtle–infused butter melts over the tender, flaky flesh, releasing bright citrus and subtle eucalyptus aromas unique to native Australian herbs. Served with a side of charred seasonal vegetables and a squeeze of fresh finger lime for a clean, zesty finish.</p>
+          </article>
+          <article class="item">
+            <h3 class="meal-name">Buffalo Wings Platter - K350</h3>
+            <img src="https://i.imgur.com/CpsBoU2.jpg" alt="Buffalo Wings Platter"/>
+            <p class="description">Crispy chicken wings tossed in our signature buffalo sauce, served with golden fries and a cooling ranch dip. Perfect for sharing or conquering solo.</p>
+          </article>
+          <article class="item">
+            <h3 class="meal-name">Steak and Fries - K280</h3>
+            <img src="https://i.imgur.com/fP7c8d6.jpg" alt="Steak and Fries"/>
+            <p class="description">Tender, juicy steak grilled to your preference, served alongside crispy golden fries and fresh vegetables. A hearty meal for the true carnivore.</p>
+          </article>
+          <article class="item">
+            <h3 class="meal-name">Pasta Alfredo - K220</h3>
+            <img src="https://i.imgur.com/YVlI1Ef.jpg" alt="Pasta Alfredo"/>
+            <p class="description">Creamy fettuccine pasta tossed in our rich, homemade Alfredo sauce with parmesan cheese and fresh herbs. Comfort food at its finest.</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer id="contact">
+        <address class="contact">
+          <p>
+            <a href="https://www.facebook.com/peaberrycoffeeroasters" target="_blank">Follow us on Facebook to stay up to date with our latest promos and coffee updates!</a>
+          </p>
+          <p class="address">Lusaka, Zambia</p>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
